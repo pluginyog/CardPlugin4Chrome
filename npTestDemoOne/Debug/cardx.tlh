@@ -1,0 +1,53 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (73c533b6).
+//
+// d:\c#\nptestdemoone\nptestdemoone\debug\cardx.tlh
+//
+// C++ source equivalent of Win32 type library D:\npPlugin\CardX.ocx
+// compiler-generated file created 12/12/14 at 16:51:14 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace CARDXLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("a11c82f2-ad19-429f-a50f-88850f3f929f"))
+/* LIBID */ __CARDXLib;
+struct __declspec(uuid("d18f137a-0549-4868-b49d-4af69278e7ac"))
+/* dispinterface */ _DCardX;
+struct __declspec(uuid("1b7ce35c-74cd-447e-9a65-00d2dfc68fdd"))
+/* dispinterface */ _DCardXEvents;
+struct /* coclass */ CardX;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_DCardX, __uuidof(_DCardX));
+_COM_SMARTPTR_TYPEDEF(_DCardXEvents, __uuidof(_DCardXEvents));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("d18f137a-0549-4868-b49d-4af69278e7ac"))
+_DCardX : IDispatch
+{};
+
+struct __declspec(uuid("1b7ce35c-74cd-447e-9a65-00d2dfc68fdd"))
+_DCardXEvents : IDispatch
+{};
+
+struct __declspec(uuid("43e4d4fc-3cd8-459a-aaa1-698c1288de93"))
+CardX;
+    // [ default ] dispinterface _DCardX
+    // [ default, source ] dispinterface _DCardXEvents
+
+} // namespace CARDXLib
+
+#pragma pack(pop)

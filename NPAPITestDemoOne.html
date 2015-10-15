@@ -1,0 +1,27 @@
+<html>
+<head>
+
+<embed width="100" height="100" type="application/npapitestdemoone-plugin" id="pluginId">
+
+<script>
+    var embed = document.getElementById('pluginId');
+   
+    
+    function TestFun() 
+    {
+        var rev = 0;
+        var param = "11";
+        var plugin = document.getElementById("pluginId");
+        rev = plugin.TestFun(param);
+        alert(rev);
+    }
+</script>
+</head>
+
+<body>
+<button onclick="TestFun()">TestFun</button>
+</body>
+
+</html>
+
+
